@@ -1,2 +1,5 @@
 opencv-python
-sklearn
+scikit-learn
+torch
+torchvision
+numpy
