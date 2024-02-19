@@ -8,22 +8,24 @@ find_package(catkin REQUIRED
     rospy 
     std_msgs
     message_generation
+    scale_truck_control_msgs
 )
 
-add_message_files(
-  FILES
-    LaneCoefs.msg
-)
-
-generate_messages(
-  DEPENDENCIES
-    std_msgs
-)
+# add_message_files(
+#   FILES
+#     LaneCoefs.msg
+# )
+# 
+# generate_messages(
+#   DEPENDENCIES
+#     std_msgs
+# )
 
 catkin_package(
   CATKIN_DEPENDS
     rospy
     std_msgs
+    scale_truck_control_msgs
 )
 
 catkin_install_python(

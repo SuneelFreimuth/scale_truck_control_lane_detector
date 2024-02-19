@@ -1,7 +1,7 @@
 #!/usr/bin/python3.8
 import rospy
 from sensor_msgs.msg import Image
-from scale_truck_control.msg import LaneCoefs
+from scale_truck_control_msgs.msg import LaneCoefs
 from cv_bridge import CvBridge
 from ultrafastLaneDetector import UltrafastLaneDetector, ModelType
 import cv2
